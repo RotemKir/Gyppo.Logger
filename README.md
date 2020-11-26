@@ -50,3 +50,5 @@ If you want to run it on a specific directory and its contents just pass a path 
 ```
 gyppo c:\repos\mycode\justprocessthisandsubdirectories
 ```
+
+The intended usage is running this in your build pipeline, after getting the source get and before building it.
