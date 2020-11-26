@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Gyppo.Logger", "Gyppo.Logger\Gyppo.Logger.fsproj", "{D9C733E1-2633-4FEA-8EB9-AA17E4D0E439}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Gyppo.Logger.Tests", "Gyppo.Logger.Tests\Gyppo.Logger.Tests.fsproj", "{995B48AA-19D7-4A73-9190-FBA556E032CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9C733E1-2633-4FEA-8EB9-AA17E4D0E439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C733E1-2633-4FEA-8EB9-AA17E4D0E439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C733E1-2633-4FEA-8EB9-AA17E4D0E439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C733E1-2633-4FEA-8EB9-AA17E4D0E439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{995B48AA-19D7-4A73-9190-FBA556E032CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{995B48AA-19D7-4A73-9190-FBA556E032CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{995B48AA-19D7-4A73-9190-FBA556E032CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{995B48AA-19D7-4A73-9190-FBA556E032CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83BF9B56-36EE-4EC8-BC4B-DC20AAA79A27}
+	EndGlobalSection
+EndGlobal

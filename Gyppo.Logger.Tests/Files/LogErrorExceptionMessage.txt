@@ -1,0 +1,17 @@
+﻿using Microsoft.Extensions.Logging;
+using System;
+
+public class MyClass
+{
+    private readonly ILogger logger;
+    
+    public MyClass(ILogger logger)
+    {
+        this.logger = logger;
+    }
+    
+    public void Work()
+    {
+        logger.LogError(new Exception(), "message");
+    }
+}

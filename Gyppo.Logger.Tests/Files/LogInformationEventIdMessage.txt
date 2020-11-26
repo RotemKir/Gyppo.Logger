@@ -1,0 +1,16 @@
+﻿using Microsoft.Extensions.Logging;
+
+public class MyClass
+{
+    private readonly ILogger logger;
+    
+    public MyClass(ILogger logger)
+    {
+        this.logger = logger;
+    }
+    
+    public void Work()
+    {
+        logger.LogInformation(new EventId(), "message");
+    }
+}

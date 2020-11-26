@@ -1,0 +1,6 @@
+﻿public class MyClass()
+{
+	public void Work()
+	{
+	}
+}
