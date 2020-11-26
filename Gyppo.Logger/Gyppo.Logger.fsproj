@@ -6,6 +6,13 @@
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>gyppo</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
+    <PackageId>Gyppo.Logger</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>rotemkir@gmail.com</Authors>
+    <PackageProjectUrl>https://github.com/RotemKir/Gyppo.Logger</PackageProjectUrl>
+    <PackageTags>Logging;CodeAnalysis</PackageTags>
+    <Description>A dotnet tool to add metadata on ILogger calls using code analysis (Roslyn)</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
